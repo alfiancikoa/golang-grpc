@@ -43,4 +43,7 @@ export PATH=$PATH:/$GO_PATH/bin
 ```
 # generate the file.proto
 $ protoc --go_out=. ./directory_proto/file.proto
+
+# generate the service.proto
+$ protoc --go-grpc_out=. ./directory_proto/service.proto
 ```
