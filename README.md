@@ -21,9 +21,13 @@ $ brew install protobuf
 $ protoc --version  # Ensure compiler version is 3+
 ```
 
-- install module golang-gRPC:
+- install the gRPC runtime
 ```
 $ go get google.golang.org/grpc
+```
+
+- install module golang-gRPC:
+```
 $ go get github.com/golang/protobuf/protoc-gen-go
 $ go get github.com/golang/protobuf/protoc-gen-go-grpc
 ```
