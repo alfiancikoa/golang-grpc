@@ -38,7 +38,7 @@ export GO_PATH=~/go
 export PATH=$PATH:/$GO_PATH/bin
 ```
 
-- Create file.proto
+- Create file_name.proto and service.proto
 - Generate the file
 ```
 # generate the file.proto
