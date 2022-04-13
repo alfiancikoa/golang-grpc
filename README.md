@@ -10,13 +10,26 @@ doc grpc <a href="https://grpc.io/" target="_blank" rel="noopener noreferrer"><b
 
 ### Command to use
 
-- install golang-rpc di internal, more info: <a href="https://grpc.io/docs/protoc-installation/">here</a>
+- install golang-gRPC compiler di internal, more info: <a href="https://grpc.io/docs/protoc-installation/">here</a>
 ```
-#Linux, using apt or apt-get, for example:
+# Linux, using apt or apt-get, for example:
 $ apt install -y protobuf-compiler
 $ protoc --version  # Ensure compiler version is 3+
 
 # MacOS, using Homebrew:
 $ brew install protobuf
 $ protoc --version  # Ensure compiler version is 3+
+```
+
+- install module golang-gRPC:
+```
+$ go get google.golang.org/grpc
+$ go get github.com/golang/protobuf/protoc-gen-go
+$ go get github.com/golang/protobuf/protoc-gen-go-grpc
+```
+
+- Export to workspace
+```
+export GO_PATH=~/go
+export PATH=$PATH:/$GO_PATH/bin
 ```
