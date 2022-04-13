@@ -10,7 +10,7 @@ doc grpc <a href="https://grpc.io/" target="_blank" rel="noopener noreferrer"><b
 
 ### Command to use
 
-- install golang-rpc di internal
+- install golang-rpc di internal, more info: <a href="https://grpc.io/docs/protoc-installation/">here</a>
 ```
 #Linux, using apt or apt-get, for example:
 $ apt install -y protobuf-compiler
