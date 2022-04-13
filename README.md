@@ -7,3 +7,16 @@ doc grpc <a href="https://grpc.io/" target="_blank" rel="noopener noreferrer"><b
 <br>
 (Sumber: https://en.wikipedia.org/wiki/GRPC)
 </p> 
+
+### Command to use
+
+- install golang-rpc di internal
+```
+#Linux, using apt or apt-get, for example:
+$ apt install -y protobuf-compiler
+$ protoc --version  # Ensure compiler version is 3+
+
+# MacOS, using Homebrew:
+$ brew install protobuf
+$ protoc --version  # Ensure compiler version is 3+
+```
